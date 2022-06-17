@@ -94,7 +94,7 @@ Volumes are placed in a portion of the Docker (docker/volumes/ on Linux) control
 In Docker's scenario, the connection is designated docker 0.0. All device containers communicate with one another by routing packets to docker0, which queues the packets via the subnet right away. Sdn controller IPv6 addresses let containers communicate with different domains. Docker containers serve as the framework for a programme, making it easier to work with and resolving issues. Container networking is a cloud computing method that splits programs into independent boxes. Containers are similar to virtual servers, with a few key differences. Containers with low latency can demand large application applications. They achieve this by replacing a kernel (often based on Linux) with a sheared operating system, resulting in a more powerful operating system. Also, containers are simpler than Virtual machines, too. They also have lightweight Linux operating systems such as Fedora CoreOS, which is part of the Red Hat community and the predecessor to CoreOS Server Linux. Network administrators may use container software applications such as Docker to develop large frameworks that can run in the background for application components.
 
 
-![Picture2](/images/Picture2.png)
+![Picture2](/images/Picture2.jbg)
 
 
 
@@ -127,3 +127,23 @@ Tracking of storage space increases the likelihood that scheduling succeeds on t
 
 ## How is Kubernetes used for scalability?
 Building business systems from the ground up is essential for scaling and transition. This has significant ramifications for both the design of devices and the technology used to implement them. Monolithic or three-tier patterns are being replaced by integrated microservices, which are easier to maintain. Not only do microservices embrace new form factors in terms of functionality and team size (referred to as "two-pizza teams"). It's not surprising that a small container or a pod with a few interconnected containers is often the best microservice-based architecture infrastructure unit. Kubernetes is strategically positioned as Microservices' development mechanism of choice. The 'sections' of a microservices-based framework can be individually designed, constructed, checked, implemented, and scaled. Containers are used by Kubernetes, and containers allow application components to be lightweight and easy to fit into a broader application.
+
+![Picture3](/images/Picture3.jbg)
+
+Components of microservices must expose an interface for other components or the external environment to access their services, event-driven or otherwise. This is where APIs must be carefully defined, and it is important to maintain an infrastructure to set up and handle stable API endpoints. Lunch Badger puts together a microservice creation platform with an API management system, end-to-end production, and configuration assistance, both synchronous and event-driven (serverless).
+
+## Conclusion
+From this paper we can establish that Docker is a very important platform. There are numerous benefits of docker like Portability, Performance, Agility, Isolation, Scalability etc. Most of the firms easily use docker however some experience certain issues to handle it. Large firms like PayPal, Spotify, ADP employ docker for its high rate of productivity and cost savings advantages. Docker is quite efficient as well. If we talk about the compatibility and maintainability of docker, we will find numerous advantages as well. Docker is incredibly basic, easy and fast to configure. We can also observe a straightforward testing and deployment process. But some applications with graphical user interfaces may have a hard time to suit the Docker environment.
+
+
+
+## References:
+* https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/#:~:text=Kubernetes'%20networking%20model%20dictates%20that,how%20other%20Pods%20see%20it.
+* https://kubernetes.io/docs/concepts/storage/volumes/
+* https://kubernetes.io/docs/concepts/cluster-administration/networking/
+* https://www.networkcomputing.com/data-centers/understanding-kubernetes-networking-model
+* https://dzone.com/articles/kubernetes-for-scalability-and-high-availability#:~:text=Given%20a%20farm%20of%20compute,Kubernetes%20is%20a%20'pod'.
+* https://blog.inedo.com/top-50-docker-tools
+* https://techbeacon.com/security/10-top-open-source-tools-docker-security
+* https://hub.docker.com/_/docker
+* https://docs.docker.com/engine/reference/commandline/images/
